@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53FF5B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="319dp"
+        android:layout_height="326dp"
+        android:background="@drawable/dara1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="WELCOME TO DARA FARMERS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/logo"
+        android:textAlignment="center"
+
+        />
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="109dp"
+        android:layout_marginBottom="-150dp"
+        android:background="@drawable/round_bg" />
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGS"
+        android:layout_alignTop="@+id/bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/blue_round_bg"
+        android:text="GET STARTED!"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        />
+
+
+
+
+</RelativeLayout>

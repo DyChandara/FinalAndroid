@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/topbg"
+    android:background="#00FF0A"
+    />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/topProfile"
+        android:background="@drawable/dara1"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/search_bar"
+        android:layout_toEndOf="@id/topProfile"
+        android:background="@drawable/search_bg"
+        android:layout_margin="15dp"
+        android:paddingStart="20dp"
+        android:hint="Search"
+        />
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+
+        android:layout_alignTop="@id/search_bar"
+        android:layout_toEndOf="@id/topProfile"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="210dp"
+        android:id="@+id/btnscan"
+        android:src="@drawable/photography1"
+        />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/btnserchicon"
+        android:layout_marginStart="326dp"
+
+        android:layout_alignTop="@id/search_bar"
+        android:padding="3dp"
+        android:src="@drawable/search1"
+        android:layout_marginTop="3dp"
+
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/flag"
+        android:layout_alignTop="@id/btnmenu"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/green_round_bg"
+        android:layout_toEndOf="@id/kh"
+        android:src="@drawable/world1"/>
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_below="@id/topbg"
+    android:id="@+id/btnmenu"
+    android:padding="10dp"
+    android:src="@drawable/menu"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="30dp"
+    />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/pro1"
+        android:layout_below="@id/btnmenu"
+        android:src="@drawable/fruit1"
+        android:paddingBottom="30dp"
+        android:background="@drawable/ing_bg"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pro1text"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@id/pro1"
+        android:layout_alignBottom="@id/pro1"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:text="ផ្លែឈើ"/>
+
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/btnmenu"
+
+        android:paddingBottom="30dp"
+        android:src="@drawable/jam1"
+        android:id="@+id/pro2"
+        android:layout_toEndOf="@+id/pro1"
+        android:background="@drawable/ing_bg"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/protext2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@id/pro2"
+        android:layout_alignBottom="@id/pro2"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="10dp"
+        android:text="តំណាប់"
+        android:textColor="@color/black"
+        />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:id="@+id/pro3"
+        android:src="@drawable/wheatsack1"
+        android:layout_height="180dp"
+
+        android:paddingBottom="30dp"
+        android:layout_below="@id/pro1"
+        android:background="@drawable/ing_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/protext3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@id/pro3"
+        android:layout_alignBottom="@id/pro3"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="10dp"
+        android:text="គ្រាប់ធញ្ញជាតិ"
+        android:textColor="@color/black"
+        />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/pro2"
+        android:id="@+id/pro4"
+        android:src="@drawable/meat1"
+        android:layout_toEndOf="@+id/pro3"
+        android:background="@drawable/ing_bg"
+        android:layout_marginTop="10dp"
+
+        android:paddingBottom="30dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/protext4"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@id/pro4"
+        android:layout_alignBottom="@id/pro4"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="10dp"
+        android:text="សាច់"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/kh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnmenu"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="13dp"
+        android:text="ភាសាខ្មែរ"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/menu_bg"
+        android:layout_marginTop="669dp"
+        android:layout_marginBottom="-40dp"
+        android:id="@+id/menu"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/home"
+        android:src="@drawable/home1"
+        android:layout_alignTop="@id/menu"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="ទំព័រដើម"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="-12dp"
+        android:layout_below="@id/home"
+        android:layout_alignStart="@id/home"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/notification"
+        android:src="@drawable/bell"
+        android:layout_alignTop="@id/menu"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/txtnotification1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="ដំណឹង"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="-7dp"
+        android:layout_below="@id/home"
+        android:layout_alignStart="@id/notification"
+        />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/chat"
+        android:layout_alignTop="@id/menu"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="ជជែក"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="-6dp"
+        android:layout_below="@id/home"
+        android:layout_alignStart="@id/message"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/profile"
+        android:src="@drawable/account"
+        android:layout_alignTop="@id/menu"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="គណនី"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginStart="-6dp"
+        android:layout_below="@id/home"
+        android:layout_alignStart="@id/profile"
+        />
+
+
+<!--    downbg-->
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/cambg"
+        android:background="@drawable/green_round_bg"
+        android:layout_alignTop="@id/menu"
+        android:layout_marginTop="-45dp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cambg2"
+        android:background="@drawable/blue_round_bg"
+        android:layout_alignTop="@id/menu"
+        android:layout_marginTop="-40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/camera"
+        android:paddingStart="10dp"
+        android:paddingBottom="33dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        />
+    <TextView
+        android:text="លក់"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cambg2"
+        android:layout_alignStart="@+id/cambg2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/camtext"
+        android:layout_below="@+id/cambg2"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="មើលច្រើនទៀត"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@id/pro4"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@id/pro4"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
